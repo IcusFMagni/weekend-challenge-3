@@ -46,7 +46,9 @@ function getAllToDo() {
             $('#toDoList').empty();
             for (let i = 0; i < response.length; i++) {
                 var todo = response[i];
-                var $newTodo = $('<tr><td>' + todo.due + '</td><td>' + todo.task + '</td><td>' + todo.steps + '</td><td>' + todo.completed + '</td></tr>');
+                var due = moment(todo.due).format("MMM Do YY"); 
+
+                var $newTodo = $('<tr><td>' + due + '</td><td>' + todo.task + '</td><td>' + todo.steps + '</td><td>' + todo.completed + '</td></tr>');
 
                 var $deleteButton = $('<td><button class="deleteButton">Delete</button></td>')
                 $deleteButton.data('id', todo.id);
