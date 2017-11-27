@@ -1,0 +1,76 @@
+body {
+    font-family: ‘Book Antiqua’, Georgia, Garamond, ‘Times New Roman’, Times, serif;
+    background: #88292F;
+
+}
+
+button {
+    margin: 0px;
+    background-color: #A393BF;
+    border-style: none;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    font-family: ‘Book Antiqua’, Georgia, Garamond, ‘Times New Roman’, Times, serif;
+    padding: 3px;
+}
+
+#submitButton {
+    width: 200px;
+    margin: 15px;
+}
+
+table {
+    background-color: #A393BF;
+    border-style: double;
+    border-width: 5px;
+    border-color: black;
+    width: 1400px;
+    margin: 15px;
+    border-color: #88292F;
+}
+
+th {
+    background-color: #878E88;
+}
+
+td {
+    background-color: #F7CB15;
+    text-align: center;
+    height: 40px;
+}
+
+#input {
+    background-color: #f7CB15;
+    border-style: double;
+    margin: 15px;
+    border-color: #88292F;
+    border-width: 5px;
+    width: 1380px;
+    padding: 5px;
+}
+
+.completeButton {
+    width: 120px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #A393BF;
+    border-style: double;
+    border-width: 15px;
+    border-color: #88292F;
+    padding: 30px;
+    width: 1310px;
+    font-size: 40px;
+    margin: 15px;
+    color: #88292F;
+}
+
+#stepsIn {
+    width: 1300px;
+}
+
+/*
+border-color: #F55D3E;
+  */

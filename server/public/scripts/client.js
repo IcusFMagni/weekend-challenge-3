@@ -46,7 +46,7 @@ function getAllToDo() {
             $('#toDoList').empty();
             for (let i = 0; i < response.length; i++) {
                 var todo = response[i];
-                var due = moment(todo.due).format("MMM Do YY"); 
+                var due = moment(todo.due).format("MMM Do YYYY"); 
 
                 var $newTodo = $('<tr><td>' + due + '</td><td>' + todo.task + '</td><td>' + todo.steps + '</td><td>' + todo.completed + '</td></tr>');
 

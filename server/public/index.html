@@ -8,23 +8,35 @@
     <script src="vendors/jquery-3.2.1.min.js"></script>
     <script src="vendors/moment.js"></script>
     <script src="scripts/client.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
     <title>ToDone</title>
 </head>
 
 <body>
-    <h1>TO DONE</h1>
-    <p>Task: <input id="taskIn"></p>
-    <p>Date: <input id="dueIn" type="date"></p>
-    <p>Steps: <input id="stepsIn"></p>
-    <button id="submitButton">Submit Task</button>
+    <h1>WE MUST DO THESE THINGS TO BE BETTER</h1>
+    <div id="input">
+        <p>Task:
+            <input id="taskIn">
+        </p>
+        <p>Date:
+            <input id="dueIn" type="date">
+        </p>
+        <p>Steps:
+            <input id="stepsIn">
+        </p>
+        <p>
+        <button id="submitButton">Submit Task</button>
+    </p>
+    </div>
     <table>
         <thead>
             <tr>
-                <th>Complete</th>
-                <th>Delete</th>
+                <th></th>
+                <th></th>
                 <th>Due</th>
                 <th>Task</th>
                 <th>Steps</th>
+                <th>DONE</th>
             </tr>
         </thead>
         <tbody id="toDoList">
